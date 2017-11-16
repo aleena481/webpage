@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  font-weight: 550;
+}
+
+.wrapper {
+  width: 70%;
+  padding: 0 15%;
+}
+
+header {
+  background: url(assets/background.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  background-position: center center;
+  width: 100%;
+}
+
+header h1.welcome {
+  color: #ffffff;
+  font-size: 90px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  line-height: 0.9em;
+}
+
+header h1.welcome .small {
+  font-size: 50px;
+}
+
+header .image {
+  float: left;
+  padding-right: 5px;
+  width: 35px;
+  height: 30px;
+}
+
+header h2.logo {
+  color: #f8fcff;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 20px 70px;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  background-color: #159efa;
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+header .btn:focus {
+  outline: none !important;
+}
+
+
+/*-----------------section---------------*/
+
+section {
+  width: 100%;
+  text-align: center;
+  background-color: #1c1c1c;
+}
+
+section h2.main-heading {
+  color: #ffffff;
+  font-size: 55px;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+section .icon {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #494848;
+  border-radius: 50%;
+  padding: 7% 7%;
+}
+
+section h3.sub-heading {
+  font-size: 35px;
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+section p.text {
+  font-size: 27px;
+  color: #848484;
+  line-height: 1.5em;
+  padding-bottom: 100px;
+}
+
+section .btn {
+  margin-bottom: 90px;
+}
+
+
+/*------footer------*/
+
+footer {
+  width: 100%;
+  background-color: #191919;
+}
+
+ul.footer-nav {
+  width: 100%;
+  padding: 70px 0;
+  text-align: center;
+}
+
+ul.footer-nav li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px;
+}
+
+ul.footer-nav li a {
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+  padding: 30px 30px;
+  border: 1px solid #494848;
+  border-radius: 50%;
+}
+
+footer a.unsub {
+  font-size: 22px;
+  color: #848484;
+  line-height: 1.5em;
+  width: 40%;
+  padding: 0 30%;
+}
+
+footer p.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0 70px;
+  color: #848484;
+  font-size: 24px;
+  line-height: 1.4em;
+}
+
+
+/*---------------Media Queries----------------*/
+
+@media screen and (max-width:768px) {
+  header h1.welcome {
+    font-size: 60px;
+  }
+  header h1.welcome .small {
+    font-size: 30px;
+  }
+  .btn {
+    padding: 20px 50px
+  }
+  section h1.main-heading {
+    font-size: 25px;
+    line-height: 1.6em;
+  }
+  section .icon {
+    padding: 4% 6%;
+  }
+  section h3.sub-heading {
+    font-size: 25px;
+    line-height: 2em;
+  }
+  section p.text {
+    font-size: 18px;
+  }
+  ul.footer-nav {
+    width: 100%;
+  }
+  .footer-nav li {
+    width: 25%;
+    margin-left: 5px;
+  }
+  .footer-nav li a {
+    margin-top: 30px;
+    padding: 10px 10px;
+  }
+  footer a.unsub {
+    width: 80%;
+    padding: 0 10%;
+    font-size: 16px;
+  }
+  footer p.copyright {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  header .image {
+    width: 30px;
+    height: 25px;
+  }
+  header h2.logo {
+    font-size: 20px;
+  }
+  header h1.welcome {
+    font-size: 37px;
+  }
+  header h1.welcome .small {
+    font-size: 20px;
+  }
+  .btn {
+    padding: 20px 40px;
+    font-size: 12px;
+  }
+  section h2.main-heading {
+    font-size: 20px;
+    line-height: 1.6em;
+  }
+  section .icon {
+    padding: 6% 6%;
+  }
+  section h3.sub-heading {
+    font-size: 16px;
+    line-height: 2em;
+  }
+  section p.text {
+    font-size: 14px;
+  }
+  ul.footer-nav {
+    width: 100%;
+  }
+  ul.footer-nav li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+  }
+  ul.footer-nav li {
+    clear: both;
+    content: "";
+  }
+  .footer-nav li a {
+    padding: 10px 10px;
+  }
+  footer a.unsub {
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+  }
+  footer p.copyright {
+    font-size: 14px;
+  }
+}
